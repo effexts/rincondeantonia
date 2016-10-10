@@ -4,7 +4,7 @@ deploy_production:
  stage: deploy
  script:
  - cd /var/www/rincondeantonia.cl/public_html/wp-content/themes/onecart
- - git pull
+ - git pull -f
  only:
  - master
  tags:
