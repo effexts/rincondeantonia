@@ -4,8 +4,6 @@ deploy_production:
  stage: deploy
  script:
  - cd /var/www/rincondeantonia.cl/public_html/wp-content/themes/onecart
- - git stash save --keep-index
- - git stash drop
  - git pull -f
  only:
  - master
