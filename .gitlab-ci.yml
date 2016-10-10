@@ -10,4 +10,4 @@ deploy_production:
  only:
  - master
  tags:
- - production    
+ - production

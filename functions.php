@@ -2274,7 +2274,8 @@ function ocart_thumb_only($w, $h) {
 	global $post;
 	$url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
 	if ($url[0]){
-		echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a=t&amp;q=100" alt="" />';
+		//echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a=t&amp;q=100" alt="" />';
+		echo '<img src="'.$url[0].'" alt="" />';
 	}
 }
 
