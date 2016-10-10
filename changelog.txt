@@ -1,0 +1,513 @@
+Version 1.8.7 (January 28, 2013)
+
+* Minor bug fixes
+
+Version 1.8.6 (January 19, 2013)
+
+* Lightbox product URLs are dynamically reflecting
+* Corrected price formatting bug
+
+Version 1.8.5 (January 19, 2013)
+
+* Added hooks for iDeal Mollie support
+
+Version 1.8.4 (January 18, 2013)
+
+* Fixed display of correct amount when using different currency to shop
+
+Version 1.8.3 (January 18, 2013)
+
+* Security patch in orders view
+
+Version 1.8.2 (January 18, 2013)
+
+* Completed video support to slides
+* Place video on left or right
+* Animating text around video
+
+Version 1.8.1 (January 17, 2013)
+
+* Added video support to slides
+
+Version 1.8 (January 17, 2013)
+
+* Added some hooks to support more plugins
+* Minor update and fixes
+
+Version 1.7.9 (January 15, 2013)
+
+* Realex UK support
+
+Version 1.7.8 (January 12, 2013)
+
+* Theme settings are now pluggable
+* Support for Facebook connect
+
+Version 1.7.7 (January 12, 2013)
+
+* Extended theme plugins
+
+Version 1.7.6 (January 10, 2013)
+
+* Payment gateways are now available as free plugins!
+* Payment integration is now pluggable, easily integrate custom gateways
+
+Version 1.7.5 (January 9, 2013)
+
+* Language packs are now available as addons
+
+Version 1.7.4 (January 7, 2013)
+
+* Access your Orders easily by Order Status!
+* Improved e-mail notifications in Orders backend
+* Turn homepage to grid only with infinite scroll
+* Enhanced menu now appear on all pages
+* CSS improvements
+
+Version 1.7.3 (January 6, 2013)
+
+* Lookup/search Orders instantly in dashboard
+* Sales breakdown chart/stats at a glance sales, tax, shipping fees
+* Quick orders overview in dashboard
+* Customizable tagline for each product (Grid mode)
+
+Version 1.7.2 (January 2, 2013)
+
+* Autoupdate stopped for security issues
+
+Version 1.7.1 (January 2, 2013)
+
+* Automatically mark Products as "New" for a date range (start and end date)
+* Mark a product as On Sale and customize the label/tag that appears on your store!
+* Fully Customizable product stickers (New, On Sale, Sold out, etc)
+* Complete/improved setting up different stock levels per product option
+* Better stock control
+
+Version 1.7 (December 30, 2012)
+
+* Added Complete SEO Panel and Options everywhere!
+* Added possibility to set additional charge when a specific payment method is used
+* Added Duplicate Product feature to duplicate products easily
+* Improved Products dashboard
+
+Version 1.6.9 (December 29, 2012)
+
+* Wishlist Feature is now available!
+* Added option to remove custom attributes
+
+Version 1.6.8 (December 29, 2012)
+
+* Added options to customize product image size
+* Added option to change product thumbnails position
+* Change product page style by editing image and thumbnails style
+
+Version 1.6.7 (December 28, 2012)
+
+* Backend words like Product, Category, Brand, and Size can be localized/translated now
+* Minor bug fixes
+
+Version 1.6.6 (December 27, 2012)
+
+* Added Sticky Checkout/Cart summary in Checkout
+* Fixed "Free shipping" sticker on shipping labels
+* Added animation to cart total when fees are calculated
+* Added grid view for single product view
+* Added option to open single product in lightbox directly
+* Fixed Products search in admin panel
+
+Version 1.6.5 (December 25, 2012)
+
+* New Chart! Visual presentation of sales volumes and total orders by location
+
+Version 1.6.4 (December 25, 2012)
+
+* Improved Dashboard
+* New chart that displays monthly sales stats
+* Collapsible dashboard charts
+
+Version 1.6.3 (December 25, 2012)
+
+* Added a new Dashboard
+* Sales statistics in admin
+* Last 30 days sales chart in admin
+* All language files were updated
+
+Version 1.6.2 (December 23, 2012)
+
+* Added option to include a space around currency symbol
+* Minor bug fixes
+
+Version 1.6.1 (December 23, 2012)
+
+* Added built-in email notifications when product becomes available
+* Added option to make sales tax included in price
+* Added ability to turn off product hover image
+* Minor bug fixes
+
+Version 1.6 (December 22, 2012)
+
+* Custom attributes are NOT removed after update now
+* Shipping and tax are calculated automatically for "Everywhere else"
+* Minor bug fixes
+
+Version 1.5.9 (December 21, 2012)
+
+* Minor bug fixes
+
+Version 1.5.8 (December 19, 2012)
+
+* Robust and completely flexible shipping/tax module re-built
+* Shipping/tax automatic AJAX calculation before checkout based on customer location
+* Maximum number of products per scroll in Grid mode
+* Close lightbox to return to product position in Grid mode
+
+Version 1.5.7 (December 18, 2012)
+
+* Critical bug fix in payment modules
+
+Version 1.5.6 (December 18, 2012)
+
+* Critical bug fix in payment modules
+
+Version 1.5.5 (December 17, 2012)
+
+* Added similar products support to grid/lightbox
+* Minor bug fixes
+* Added Turkish language
+* Added Russian language
+
+Version 1.5.4 (December 15, 2012)
+
+* Added shortcodes support
+* Added shortcodes to show product collections in blog posts/pages easily
+
+Version 1.5.3 (December 15, 2012)
+
+* Added support to display product collections in sidebar widgets
+* Added automated Best Sellers widget
+
+Version 1.5.2 (December 14, 2012)
+
+* Create unlimited product collections / widgets
+* Automatic sliders for product collections
+* Customise collection widget via options: order, exclude products, products number, etc.
+* Compatible with WordPress 3.5
+* Open products in lightbox even in slider mode
+
+Version 1.5.1 (December 12, 2012)
+
+* Added Price filter / slider to Grid view
+* Added the new currency symbol for India
+* Updated timthumb to latest version
+
+Version 1.5 (December 9, 2012)
+
+* Multi currency module minor fix
+
+Version 1.4.9 (December 8, 2012)
+
+* Major feature added: Multi-currency store enabled
+* Add multiple currencies easily
+* Automatic and dynamic live currency rate exchange
+* Enhanced multi-language and multi-currency bar
+* Twitter feed bugfix (Thanks to hudsondonovan)
+* Added Payex payment gateway
+
+Version 1.4.8 (December 5, 2012)
+
+* Admin can sort and re-order product options / attributes
+* Product options can be displayed in select dropdown list
+* Added option to select which attributes are scrollable in grid view nav
+* Added Greek language beta
+* Fixed lightbox responsive bugs
+
+Version 1.4.7 (December 1, 2012)
+
+* Shipping based on Package Weight added
+* Added option to setup item weight
+* Added option to setup weight unit (lbs, g, kg)
+
+Version 1.4.6 (November 30, 2012)
+
+* Admin can sort and re-order products via ajax drag and drop
+* Sold out items are marked as out of stock automatically
+* Display alert with remaining stock quantity when item is short in stock
+
+Version 1.4.5 (November 29, 2012)
+
+* Added option to modify product Sales manually
+* Fixed responsive bugs
+* Fixed minor bugs
+* Updated language files
+
+Version 1.4.4 (November 28, 2012)
+
+* Sales and stock are now updated automatically
+* Added coupons info to order history and invoice
+* Added product options to order history and invoice
+* Minor bug fixes
+* Language files updated
+
+Version 1.4.3 (November 24, 2012)
+
+* Added complete order summary in dashboard
+* Minor bug fixes
+
+Version 1.4.2 (November 21, 2012)
+
+* Added panel to create unlimited product options/attributes
+* Added options to customize e-mails sent from the store
+* Added support for larger product images
+* Improved shopping cart/add to cart
+* Several seo improvements
+* Minor bug fixes
+
+Version 1.4.1 (November 19, 2012)
+
+* Added Enhanced Menu Style with unlimited depth
+* Minor bug fixes
+
+Version 1.4 (November 17, 2012)
+
+* Add terms and conditions to checkout page
+* Full width page template
+* Fully supported catalogue mode (No cart)
+* Added Portuguese Language
+* Ability to manage blog and registration links on header
+* Display product SKU in Orders view
+* Improved overall look of Orders dashboard
+
+Version 1.3.9 (November 16, 2012)
+
+* Manage Allowed Countries via Theme Admin
+* Manage Allowed Shipping Destinations via Theme Admin
+* Added option to activate or deactivate Tax rates
+* Added option to set Tax rate on total order (e.g. 20% Tax)
+
+Version 1.3.8 (November 15, 2012)
+
+* Improved Orders display
+* Customer can add special note to order
+* Customer can choose delivery date
+* Added option to show/hide extra checkout fields
+* Added options to customize slideshow
+* Added option to enable/disable slideshow
+* Updated language files
+
+Version 1.3.7 (November 13, 2012)
+
+* Added ability to change Currency Position
+
+Version 1.3.6 (November 13, 2012)
+
+* Set different stock quantity for every product option (e.g. blue: 10 units)
+* User can not order more than available stock quantity
+* User can not order product option which is out of stock
+
+Version 1.3.5 (November 13, 2012)
+
+* Added option to configure number of products in Grid mode
+* Added option to show/hide main navigation dropdown
+* Security update
+
+Version 1.3.4 (November 12, 2012)
+
+* Added option to change main navigation (e.g. Display categories instead of brands)
+* Added Bank Transfer payment option
+* Added option to enable/disable cropping on a product basis
+* Optionally add Pin It button to your product page
+
+Version 1.3.3 (November 12, 2012)
+
+* Added child theme support
+* Added option to show/hide grid button
+* Added option to show/hide slider button
+* Added option to show/hide back to top button
+
+Version 1.3.2 (November 11, 2012)
+
+* Fixed shipping fees in invoice
+* Minor bug fixes
+
+Version 1.3.1 (November 10, 2012)
+
+* Added "Similar Products" Module
+* Admin can set Similar Products with flexibility
+* Admin can display Similar Products automatically
+* Improved cross-selling
+* Updated language files
+
+Version 1.3 (November 8, 2012)
+
+* Added multi language support to front-end store
+
+Version 1.2.9 (November 8, 2012)
+
+* Added option to control which attributes to display on product page
+* Added option to control which filters to build the Grid view
+* Increased product/grid flexibility
+
+Version 1.2.8 (November 7, 2012)
+
+* More flexible shipping controls
+* Added option to set universal cost per item
+* Added option to set shipping rates per product
+* Added option to set shipping rates based on quantity
+* Added option to set item weight
+
+Version 1.2.7 (November 6, 2012)
+
+* New Product Settings Panel (Improved)
+* Minor bug fixes
+* Language files updated
+
+Version 1.2.6 (November 5, 2012)
+
+* Added New Language: Dutch
+
+Version 1.2.5 (November 5, 2012)
+
+* Improved Grid view filters
+* Grid view is now more flexible
+
+Version 1.2.4 (November 4, 2012)
+
+* Added Multi-Select Filters to Grid View
+* Added "Reset" filters for Grid View
+* Improved Add to cart in Grid View
+* Added PagosOnline payment gateway
+
+Version 1.2.3 (November 3, 2012)
+
+* Added Ajax Product Search with AutoComplete support
+* Added more customization options in admin panel
+* Improved setting different prices for product
+* Grid view can show least product price now
+* Minor bug fixes
+
+Version 1.2.2 (November 1, 2012)
+
+* Added Authorize.net Payment Gateway
+* Minor bug fixes
+
+Version 1.2.1 (October 31, 2012)
+
+* Added support to change URL in browser dynamically
+* Added New Language: Spanish
+
+Version 1.2 (October 30, 2012)
+
+* HTML/CSS version is now included (Free!)
+* Added New Language: Norwegian
+
+Version 1.1.9 (October 29, 2012)
+
+* Added Skrill (Moneybookers) Payment Gateway
+* Grid View is now Fully Responsive
+
+Version 1.1.8 (October 29, 2012)
+
+* Frontend option to switch grid/slider view
+* Set automatic product image based on color
+* Improved grid view
+* Minor bug fixes
+
+Version 1.1.7 (October 26, 2012)
+
+* 2 Layouts to display products
+* Show More Products in Grid View
+* Display Products in Popup
+* Sharing buttons added to product
+* Customize Footer Text via Admin
+* Customize Contact us template via Admin
+* Updated language files
+
+Version 1.1.6 (October 24, 2012)
+
+* Added New Language: French
+
+Version 1.1.5 (October 23, 2012)
+
+* New payment gateway: Zaakpay
+
+Version 1.1.4 (October 22, 2012)
+
+* Set different prices for different product options
+* Customer must select product options before 'Add to Cart'
+
+Version 1.1.3 (October 21, 2012)
+
+* Added Responsive Design
+* Mobile Ready!
+* number_format was fixed
+
+Version 1.1.2 (October 20, 2012)
+
+* Added product reviews module
+* jQuery bug fixes (Add to cart)
+* Updated language files
+
+Version 1.1.1 (October 18, 2012)
+
+* Support for product videos
+* Video thumbnail in image gallery
+* More room for product details
+* Additional information for a product
+* Added auto-scrolling to active product
+* Updated language files
+
+Version 1.1 (October 17, 2012)
+
+* More payment options introduced: Cash on Delivery, Cheque, Pay Later
+* Updated language files
+
+Version 1.0.9 (October 15, 2012)
+
+* Added full color customization to theme panel
+
+Version 1.0.8 (October 15, 2012)
+
+* Fixed URL handling for taxonomy archives
+* Improved store navigation handling
+
+Version 1.0.7 (October 14, 2012)
+
+* Added 3 extra skins
+* Updated language files
+
+Version 1.0.6 (October 13, 2012)
+
+* Set/upload Logo from Theme Admin
+* Added total products count
+* Added option to change active color
+
+Version 1.0.5 (October 12, 2012)
+
+* Added Discount Coupons
+* Minor bug fixes
+* Dashboard css improvements
+
+Version 1.0.4 (October 11, 2012)
+
+* Added option to include tracking or other JS code to header from dashboard
+* Fixed automatic updated feature
+
+Version 1.0.3 (October 11, 2012)
+
+* A close button added to product detail
+* Added 16 background patterns/textures
+* Added simple customisation to theme colors
+* Updated localization language file
+
+Version 1.0.2 (October 10, 2012)
+
+* Automatic redirection to PayPal payment gateway
+
+Version 1.0.1 (October 10, 2012)
+
+* Minor bug fixes
+* Added option to disable cart/purchase
+
+Version 1.0 (October 9, 2012)
+
+* Initial public release
