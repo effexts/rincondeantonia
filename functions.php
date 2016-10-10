@@ -2055,11 +2055,11 @@ function ocart_product($data, $id = '') {
 		if (isset($hover_image)) {
 		if ((int)$hover_image && $status != 'sold') {
 			$hover = wp_get_attachment_image_src( $hover_image, 'full');
-			echo '<div class="producthover"><img src="'.get_template_directory_uri().'/thumb.php?src='.$hover[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" /></div>';
+			echo '<div class="producthover"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$hover[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" /></div>';
 		}
 		}
 		
-		echo '<img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" />';
+		echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" />';
 
 	}
 	
@@ -2110,7 +2110,7 @@ function ocart_product($data, $id = '') {
 
 			$url = wp_get_attachment_image_src( get_post_thumbnail_id($id), 'full');
 			if ($url[0]){
-				echo '<a href="'.$url[0].'" title="'.$title.'" class="zoom" id="thumb-'.get_post_thumbnail_id($id).'"><img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.ocart_get_option('main_image_width').'&amp;h='.ocart_get_option('main_image_height').'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a>';
+				echo '<a href="'.$url[0].'" title="'.$title.'" class="zoom" id="thumb-'.get_post_thumbnail_id($id).'"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.ocart_get_option('main_image_width').'&amp;h='.ocart_get_option('main_image_height').'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a>';
 			}
 		}
 		
@@ -2140,12 +2140,12 @@ function ocart_product($data, $id = '') {
 			echo '<ul class="thumbs">';
 				if (!empty($has_video)) {
 				?>
-				<li><a href="javascript:lightbox(null, '<?php echo get_template_directory_uri(); ?>/ajax/playvideo.php', '', '<?php echo $id; ?>');" title="<?php _e('Watch Product Video','ocart'); ?>" class="tip video" rel="video"><img src="<?php echo get_template_directory_uri(); ?>/thumb.php?src=<?php echo $url[0]; ?>&amp;w=100&amp;h=100&amp;zc=<?php echo $zc; ?>&amp;a=<?php echo $crop; ?>&amp;q=100" alt="" /><span class="video_icon"></span></a></li>
+				<li><a href="javascript:lightbox(null, '<?php echo get_template_directory_uri(); ?>/ajax/playvideo.php', '', '<?php echo $id; ?>');" title="<?php _e('Watch Product Video','ocart'); ?>" class="tip video" rel="video"><img src="<?php echo get_template_directory_uri(); ?>/mthumb.php?src=<?php echo $url[0]; ?>&amp;w=100&amp;h=100&amp;zc=<?php echo $zc; ?>&amp;a=<?php echo $crop; ?>&amp;q=100" alt="" /><span class="video_icon"></span></a></li>
 				<?php
 				}
 			foreach ($attachments as $attachment) {
 				$url = wp_get_attachment_image_src( $attachment->ID, 'full');
-				echo '<li><a href="#'.$attachment->ID.'" title="'.$attachment->post_title.'" class="tip" rel="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w=100&amp;h=100&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a></li>';
+				echo '<li><a href="#'.$attachment->ID.'" title="'.$attachment->post_title.'" class="tip" rel="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w=100&amp;h=100&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a></li>';
 			}
 			echo '</ul>';
 		}
@@ -2176,12 +2176,12 @@ function ocart_product($data, $id = '') {
 			echo '<ul class="thumbs2">';
 				if (!empty($has_video)) {
 				?>
-				<li><a href="javascript:lightbox(null, '<?php echo get_template_directory_uri(); ?>/ajax/playvideo.php', '', '<?php echo $id; ?>');" title="<?php _e('Watch Product Video','ocart'); ?>" class="tip video" rel="video"><img src="<?php echo get_template_directory_uri(); ?>/thumb.php?src=<?php echo $url[0]; ?>&amp;w=75&amp;h=75&amp;zc=<?php echo $zc; ?>&amp;a=<?php echo $crop; ?>&amp;q=100" alt="" /><span class="video_icon"></span></a></li>
+				<li><a href="javascript:lightbox(null, '<?php echo get_template_directory_uri(); ?>/ajax/playvideo.php', '', '<?php echo $id; ?>');" title="<?php _e('Watch Product Video','ocart'); ?>" class="tip video" rel="video"><img src="<?php echo get_template_directory_uri(); ?>/mthumb.php?src=<?php echo $url[0]; ?>&amp;w=75&amp;h=75&amp;zc=<?php echo $zc; ?>&amp;a=<?php echo $crop; ?>&amp;q=100" alt="" /><span class="video_icon"></span></a></li>
 				<?php
 				}
 			foreach ($attachments as $attachment) {
 				$url = wp_get_attachment_image_src( $attachment->ID, 'full');
-				echo '<li><a href="#'.$attachment->ID.'" title="'.$attachment->post_title.'" class="tip" rel="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w=75&amp;h=75&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a></li>';
+				echo '<li><a href="#'.$attachment->ID.'" title="'.$attachment->post_title.'" class="tip" rel="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w=75&amp;h=75&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a></li>';
 			}
 			echo '</ul>';
 		}
@@ -2204,7 +2204,7 @@ function ocart_product($data, $id = '') {
 		if ($attachments) {
 			foreach ($attachments as $attachment) {
 				$url = wp_get_attachment_image_src( $attachment->ID, 'full');
-				echo '<a href="'.$url[0].'" title="'.$attachment->post_title.'" class="zoom" id="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.ocart_get_option('main_image_width').'&amp;h='.ocart_get_option('main_image_height').'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a>';
+				echo '<a href="'.$url[0].'" title="'.$attachment->post_title.'" class="zoom" id="thumb-'.$attachment->ID.'"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.ocart_get_option('main_image_width').'&amp;h='.ocart_get_option('main_image_height').'&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" /></a>';
 			}
 		}
 	
@@ -2213,7 +2213,7 @@ function ocart_product($data, $id = '') {
 	// show the small thumb in small cart
 	if ($data == 'small_thumb') {
 		$url = wp_get_attachment_image_src( get_post_thumbnail_id($id), 'full');
-		echo '<img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w=46&amp;h=46&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" />';
+		echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w=46&amp;h=46&amp;zc='.$zc.'&amp;a='.$crop.'&amp;q=100" alt="" />';
 	}
 	
 	// get price in grid view
@@ -2263,7 +2263,7 @@ function ocart_thumb($w, $h) {
 	global $post;
 	$url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
 	if ($url[0]){
-		echo '<a href="'.get_permalink($post->ID).'" title="'.get_the_title().'"><img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;q=100" alt="" /></a>';
+		echo '<a href="'.get_permalink($post->ID).'" title="'.get_the_title().'"><img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;q=100" alt="" /></a>';
 	}
 }
 
@@ -2274,7 +2274,7 @@ function ocart_thumb_only($w, $h) {
 	global $post;
 	$url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
 	if ($url[0]){
-		echo '<img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a=t&amp;q=100" alt="" />';
+		echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a=t&amp;q=100" alt="" />';
 	}
 }
 
@@ -4198,7 +4198,7 @@ show default product image placeholder
 ************************************************************/
 function ocart_default_image($type) {
 	if ($type == 'sort') {
-		echo '<img src="'.get_template_directory_uri().'/thumb.php?src='.get_stylesheet_directory_uri().'/img/no-image.png&amp;w=50&amp;h=50&amp;zc=0&amp;q=100" alt="" />';
+		echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.get_stylesheet_directory_uri().'/img/no-image.png&amp;w=50&amp;h=50&amp;zc=0&amp;q=100" alt="" />';
 	}
 }
 
