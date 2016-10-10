@@ -22,6 +22,6 @@ if ($size == 'pic-default') $w = 194; $h = ocart_get_option('catalog_image_heigh
 // print attachment image
 $url = wp_get_attachment_image_src( get_post_thumbnail_id($id), 'full');
 		
-echo '<img src="'.get_template_directory_uri().'/thumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" />';
+echo '<img src="'.get_template_directory_uri().'/mthumb.php?src='.$url[0].'&amp;w='.$w.'&amp;h='.$h.'&amp;a='.$crop.'&amp;q=100" class="productfront '.$size.'" alt="" />';
 
 ?>
